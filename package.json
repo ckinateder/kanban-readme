@@ -7,9 +7,9 @@
     "test": "npm run test --prefix kanban-api",
     "server": "npm start --prefix kanban-api",
     "client": "npm start --prefix kanban-ui",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "npm install && npm install --prefix kanban-api && npm install --prefix kanban-ui",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build"
+    "heroku-postbuild": "npm install && npm install -- only=dev --no-shrinkwrap && npm run build"
   },
   "keywords": [],
   "author": "",
