@@ -8,6 +8,7 @@
     "server": "npm start --prefix kanban-api",
     "client": "npm start --prefix kanban-ui",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm run dev",
     "build": "npm install && npm install --prefix kanban-api && npm install --prefix kanban-ui",
     "heroku-postbuild": "npm install && npm install --only=dev --no-shrinkwrap && npm run build"
   },
