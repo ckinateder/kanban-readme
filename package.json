@@ -7,7 +7,7 @@
     "test": "npm run test --prefix kanban-api",
     "server": "npm start --prefix kanban-api",
     "client": "npm start --prefix kanban-ui",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "npm install && concurrently \"npm run server\" \"npm run client\"",
     "build": "npm install && npm install --prefix kanban-api && npm install --prefix kanban-ui",
     "heroku-postbuild": "npm run build"
   },
