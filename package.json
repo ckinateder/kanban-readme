@@ -9,7 +9,7 @@
     "client": "npm start --prefix kanban-ui",
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "build": "npm install && npm install --prefix kanban-api && npm install --prefix kanban-ui",
-    "heroku-postbuild": "npm run build && npm start"
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
