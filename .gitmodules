@@ -1,0 +1,6 @@
+[submodule "kanban-ui"]
+	path = kanban-ui
+	url = https://github.com/ckinateder/kanban-ui.git
+[submodule "kanban-api"]
+	path = kanban-api
+	url = https://github.com/ckinateder/kanban-api.git

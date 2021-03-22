@@ -1,0 +1,23 @@
+{
+  "name": "kanban-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test --prefix kanban-api",
+    "server": "npm start --prefix kanban-api",
+    "client": "npm start --prefix kanban-ui",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm install && npm install --prefix kanban-api && npm install --prefix kanban-ui",
+    "heroku-postbuild": "npm install && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "14.x"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}
