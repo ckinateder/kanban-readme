@@ -2,6 +2,8 @@
 
 I designed this application using the MERN ([MongoDB](https://www.mongodb.com/), [Express](https://expressjs.com/), [React](https://reactjs.org/), [Node.js](https://nodejs.org/en/)) stack. If you're unfamiliar, [MongoDB](https://www.mongodb.com/) is used for the persistent storage, [Express](https://expressjs.com/) is used to simplify the backend, [React](https://reactjs.org/) is used to simplify the frontend, and [Node.js](https://nodejs.org/en/) is used as the codebase all around. First, I built up the backend. I hadn't used Express before, but this was probably the easiest part for me, as I have some experience in Node.js and developing REST APIs. I had never used MongoDB before, but I find it really simple (especially coming from MySQL). Then, I started implementing the frontend. This was definitely a challenge, because I had **almost no React experience before this**, but I enjoyed it. It wasn't too hard to pick up in a weekend. After I had the base app working, I implemented some unit tests for the backend. Then, I set up both the [frontend](https://kanban-cjk-ui.herokuapp.com/) and [backend](https://kanban-cjk-api.herokuapp.com/api/tasks) to be hosted on [heroku](https://dashboard.heroku.com/). This was a huge challenge at first. CORS kept blocking my API calls, so I had to go back to the backend and mess with the main class. Once I got it unblocked, the UI worked.
 
+Click [here](https://kanban-cjk-ui.herokuapp.com/) to visit the live app hosted on Heroku.
+
 ## UI
 
 ### Home
