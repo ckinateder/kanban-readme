@@ -28,7 +28,7 @@ Because the backend API is hosted on heroku [here](https://kanban-cjk-api.heroku
 $ git clone https://github.com/ckinateder/kanban-ui.git
 ```
 
-You can start the frontend with
+You can start the [frontend](https://github.com/ckinateder/kanban-ui) with
 
 ``` bash
 $ cd kanban-ui
@@ -42,7 +42,7 @@ However, if you would like to clone the api as well, you may do so with
 $ git clone https://github.com/ckinateder/kanban-api.git
 ```
 
-You can start the backend in the same way, with
+You can start the [backend](https://github.com/ckinateder/kanban-api) in the same way, with
 
 ``` bash
 $ cd kanban-api
@@ -118,9 +118,7 @@ $ npm test
 
 [![Video](img/thumbnail.jpg)](https://youtu.be/bI4XyAtftOc "Overview")
 
-[https://youtu.be/bI4XyAtftOc](https://youtu.be/bI4XyAtftOc)
+Frontend: [https://github.com/ckinateder/kanban-ui](https://github.com/ckinateder/kanban-ui)
 
-[https://github.com/ckinateder/kanban-ui](https://github.com/ckinateder/kanban-ui)
-
-[https://github.com/ckinateder/kanban-api](https://github.com/ckinateder/kanban-api)
+Backend: [https://github.com/ckinateder/kanban-api](https://github.com/ckinateder/kanban-api)
 
