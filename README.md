@@ -114,8 +114,13 @@ $ npm test
 
 ```
 
-## Links
+## Video and Links
+
+[![Video](img/thumbnail.jpg)](https://youtu.be/bI4XyAtftOc "Overview")
+
+[https://youtu.be/bI4XyAtftOc](https://youtu.be/bI4XyAtftOc)
 
 [https://github.com/ckinateder/kanban-ui](https://github.com/ckinateder/kanban-ui)
 
 [https://github.com/ckinateder/kanban-api](https://github.com/ckinateder/kanban-api)
+
